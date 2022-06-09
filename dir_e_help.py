@@ -8,5 +8,7 @@ disponiveis para determinado tipo de dado ou variável.
 """
 
 teste = "JOAO CARLOS FONSECA".title()
+teste2 = "JOAO CARLOS FONSECA".title()
 
-print(teste)
+print(teste.lower())
+print(teste.title())

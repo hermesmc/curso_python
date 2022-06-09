@@ -1,2 +1,2 @@
-nome = 'Geek'
-print(f'{nome}')
+nomenclatura = 'Geek'
+print(f'{nomenclatura}')
