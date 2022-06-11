@@ -13,8 +13,11 @@ input() -> Todo tipo de dados recebido via input é uma string
 nome = input("Qual seu nome: ")
 ano = int(input("Em que ano nasceu: "))
 
-
-total = 2022 - ano
+if (ano > 2022):
+    print("Você veio do futuro?")
+else:
+    total = 2022 - ano
+    print(f'{nome} tem {total} anos.')
 """
 int(ano) está fazendo cast
 
@@ -28,4 +31,4 @@ Cast é a conversão de um tipo de dados para outro
 #print('{0} tem {1} anos.' .format (nome, idade))
 
 # Exmplo print mais atual
-print(f'{nome} tem {total} anos.')
+# print(f'{nome} tem {total} anos.')
