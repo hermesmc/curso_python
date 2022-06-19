@@ -173,4 +173,18 @@ num5 = 0
 
 numeros = [num1, num2, num3, num4, num5]
 print(numeros)
+
+# Acessando elementos de forma indexada
+
+cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
+print(cores[4])
+
+# Acessando elementos de forma indexada de forma inversa
+cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
+print(cores[-2])
 """
+
+# Acessando elementos de forma indexada
+
+cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
+print(cores[-2])
