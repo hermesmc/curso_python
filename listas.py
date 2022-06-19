@@ -179,12 +179,122 @@ print(numeros)
 cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
 print(cores[4])
 
+for cor in cores:
+    print(cor)
+
+# Pegando valor do array e seu indice
+
 # Acessando elementos de forma indexada de forma inversa
 cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
 print(cores[-2])
-"""
 
-# Acessando elementos de forma indexada
+# Acessando o indice de um determinddo elemento da lista
 
 cores = ['azul', 'amarelo', 'branco', 'verde', 'vermelho', 'laranja', 'rosa']
-print(cores[-2])
+print(cores.index('verde'))
+
+# Caso o elemento que está sendo buscado na lista se repita, a instrução vai devolver o primeiro indice encontrado
+cores = ['azul', 'amarelo', 'branco', 'verde', 'azul', 'laranja', 'rosa']
+print(cores.index('azul'))
+
+# Se o elemento buscado não estiver na lista a instrução retorna erro
+
+# Listas aceitam repetição de dados
+lista = []
+lista.append(42)
+lista.append(42)
+lista.append(42)
+lista.append(22)
+lista.append(22)
+print(lista)
+
+# Trabalhando com slice de lista com o parâmetro início
+
+lista = [1, 2, 3, 4, 5, 6 , 7]
+print(lista[1:]) # mostra valores a partir do indice 1
+print(lista[::]) # mostra todos os valores
+print(lista[3:]) # mostra valores a partir do indice 3
+print(lista[1:4]) # mostra valores a partir do indice 1 ao 4 (o final não é inclusivo)
+print(lista[:3]) # mostra valores até o indice 3
+
+# Trabalhando com listas usando o parâmetro passo
+print(lista[1::2]) # mostra valores a partir do indice 1 de dois em dois
+print(lista[::-1]) # mostra valores de trás para frente
+
+# Invertendo uma lista
+lista = [1, 2, 3, 4, 5, 6 , 7]
+print(lista)
+lista.reverse()
+print(lista)
+
+# Soma, maior valor, menor valor, tamanho da lista - Valores inteiros ou reais
+lista = [1, 2, 3, 4, 5, 6, 7]
+
+print(sum(lista))
+print(max(lista))
+print(min(lista))
+print(len(lista)) # Qualquer tipo de valor
+
+# transformando lista em tupla
+lista = [1, 2, 3, 4, 5, 6, 7]
+print(lista)
+print(type(lista))
+
+tupla = tuple(lista)
+print(tupla)
+print(type(tupla))
+
+# desempacotamento de listas
+lista = [1, 2, 3]
+num1, num2, num3 = lista
+
+print(num1)
+print(num2)
+print(num3)
+
+* se a quantidade de elementos ou de variaveis for diferente, dá erro
+
+# Cópia de listas (Shallow copy e Deep copy)
+
+# Quando é feita uma cópia e as listas ficam totalmente independentes, chamamos de DEEP COPY
+lista = [1, 2, 3]
+nova = lista.copy()
+print(nova)
+
+nova.append(4)
+print(lista)
+print(nova)
+
+# Quando é feita uma cópia e as listas ficam dependentes, chamamos de SHALLOW COPY
+lista = [1, 2, 3]
+nova = lista
+
+print(lista)
+print(nova)
+
+nova.append(4)
+lista.append(8)
+print(lista)
+print(nova)
+"""
+
+# Quando é feita uma cópia e as listas ficam dependentes, chamamos de SHALLOW COPY
+lista = [1, 2, 3]
+nova = lista
+
+print(lista)
+print(nova)
+
+nova.append(4)
+lista.append(8)
+print(lista)
+print(nova)
+
+
+
+
+
+
+
+
+
