@@ -88,7 +88,8 @@ print(tupla[0:6:2])
 - Deixam seu código mais seguro
 
 """
-
+tupla = 'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho'
+print(tupla.index('março'))
 
 
 
