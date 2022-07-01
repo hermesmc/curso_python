@@ -85,8 +85,6 @@ print(outra_funcao())
 
 # Vamos criar uma função para receber o resultado de jogar uma moeda
 
-
-
 def joga_moeda():
     # Gera numeros pseudo-randomicos entre 0 e 1
     valor = random()
@@ -106,5 +104,23 @@ def joga_moeda():
 
 print(joga_moeda())
 
-"""
+# Erros comuns na utilização de retorno, que na verdade nem são erros, mas codificação desnecessária:
 
+def eh_impar():
+    numero = 5
+    if numero % 2 != 0:
+        return True
+    else: # Não há necessidade desse else
+        return False
+
+print(eh_impar())
+
+# Melhor assim:
+
+def eh_impar():
+    numero = 5
+    if numero % 2 != 0:
+        return True
+    return False
+
+"""
