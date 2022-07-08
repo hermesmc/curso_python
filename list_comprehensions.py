@@ -54,6 +54,11 @@ numeros_dobrados = [ ]
 
 print([numero * 2 for numero in numeros])
 
+OU
+
+numeros_dobrados = [numero * 2 for numero in numeros]
+print(numeros_dobrados)
+
 # Exemplo 4
 
 nome = 'Torcida do Flamengo'
@@ -74,11 +79,11 @@ print([caixa_alta(amigo) for amigo in amigos])
 
 print([numero * 3 for numero in range(1, 10)])
 
-# Exemplo 7
+# Exemplo 7 - Pegando o valor booleano
 
 print([bool(valor) for valor in [0, [], '', True, 1, 3.14]])
 
-# Exemplo 8
+# Exemplo 8 - Pegando o valor da string
 
 print([str(numero) for numero in [1, 2,3 ,4 ,5]])
 
