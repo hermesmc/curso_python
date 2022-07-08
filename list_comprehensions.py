@@ -69,7 +69,7 @@ def caixa_alta(nome):
     return nome
 
 print([caixa_alta(amigo) for amigo in amigos])
-"""
+
 # Exemplo 6
 
 print([numero * 3 for numero in range(1, 10)])
@@ -81,3 +81,5 @@ print([bool(valor) for valor in [0, [], '', True, 1, 3.14]])
 # Exemplo 8
 
 print([str(numero) for numero in [1, 2,3 ,4 ,5]])
+
+"""
