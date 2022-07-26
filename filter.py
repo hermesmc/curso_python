@@ -122,5 +122,6 @@ usuarios = [
 ]
 
 inativos = list(filter(lambda usuario: not usuario['Tweets'], usuarios))
-ativos = list(filter(lambda usuario: usuario['Tweets'], usuarios))
+ativos = (filter(lambda usuario: usuario['Tweets'], usuarios[0]))
+print(inativos)
 print(ativos)
