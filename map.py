@@ -47,3 +47,13 @@ c_para_f = lambda dado: (dado[0], round(9/5 * dado[1] + 32))
 print(list(map(c_para_f, cidades)))
 """
 
+cidades = [('Berlin', 28),('Madri', 23),('Paris', 19),('Tokio', 22),('São Paulo', 25),
+           ('Londres', 22), ('Buenos Aires', 20)]
+
+print(cidades)
+
+# convertendo para fahrenheit - f = 9/5 * c + 32
+
+c_para_f = lambda dado: (dado[0], round(9/5 * dado[1] + 32))
+print(list(map(c_para_f, cidades)))
+
