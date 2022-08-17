@@ -1,7 +1,7 @@
 # Python
 Pasta para estudos sobre Python
 
-<h2>Instalação</h2>
+<h2>Instalação Windows</h2>
 
 Instalação básica:
 - Java JDK (lembrar de incluir no path o caminho C:\Program Files\Java\jdk-11.0.7\bin
@@ -44,6 +44,36 @@ Veja que o nome colocado no fim do endereço em location será o mesmo do ambien
 <h2>Ambiente Virtual</h2>
 
 A razão para utilização de ambientes virtuais no desenvolvimento python é a possibilidade de ter versões diferentes de bibliotecas e do próprio python em diferentes projetos na mesma máquina sem que um interfira no outro.
+
+<h2>Instalação Linux</h2>
+
+a) Instalar as dependências
+
+sudo apt install build-essential zlib1g-dev libjpeg-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev sqlite3 liblzma-dev curl libbz2-dev
+
+b) Baixar o fonte do Python
+
+c) Descompactar o Python baixado
+
+d) Com o terminal aberto no diretório do fonte executar:
+
+	./configure --enable-optimizations --with-ensurepip=install
+
+e) Compilar com o comando:
+
+	make -j 8
+
+f) Instalar com o comando:
+
+	sudo make altinstall
+	
+g) Verifique se foi instalado com o comando:
+
+	python3.x --version
+
+	pip3.x --version
+
+
 
 <h2>PEP8 - Boas práticas</h2>
 
