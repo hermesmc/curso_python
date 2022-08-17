@@ -57,7 +57,7 @@ d) Com o terminal aberto no diretório do fonte executar:
 
 e) Compilar com o comando:
 
-	make -j 8
+	make -j 2
 
 f) Instalar com o comando:
 
