@@ -75,15 +75,15 @@ A razão para utilização de ambientes virtuais no desenvolvimento python é a 
 
 Para cria-lo
 
-mkvirtualenv "nome do ambiente"
+	mkvirtualenv "nome do ambiente"
 
 Para desativá-lo:
 
-deactivate
+	deactivate
 
-Para atiǘa-lo:
+Para ativá-lo:
 
-workon "nome do ambiente"
+	workon "nome do ambiente"
 
 <h2>PEP8 - Boas práticas</h2>
 
