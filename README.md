@@ -41,10 +41,6 @@ Depois de instalar o PyCharm, entrar nele e criar novo projeto:
 
 Veja que o nome colocado no fim do endereço em location será o mesmo do ambiente virtual. O ideal é que seja feito assim.
 
-<h2>Ambiente Virtual</h2>
-
-A razão para utilização de ambientes virtuais no desenvolvimento python é a possibilidade de ter versões diferentes de bibliotecas e do próprio python em diferentes projetos na mesma máquina sem que um interfira no outro.
-
 <h2>Instalação Linux</h2>
 
 a) Instalar as dependências
@@ -73,7 +69,9 @@ g) Verifique se foi instalado com o comando:
 
 	pip3.x --version
 
+<h2>Ambiente Virtual</h2>
 
+A razão para utilização de ambientes virtuais no desenvolvimento python é a possibilidade de ter versões diferentes de bibliotecas e do próprio python em diferentes projetos na mesma máquina sem que um interfira no outro.
 
 <h2>PEP8 - Boas práticas</h2>
 
