@@ -73,6 +73,18 @@ g) Verifique se foi instalado com o comando:
 
 A razão para utilização de ambientes virtuais no desenvolvimento python é a possibilidade de ter versões diferentes de bibliotecas e do próprio python em diferentes projetos na mesma máquina sem que um interfira no outro.
 
+Para cria-lo
+
+mkvirtualenv "nome do ambiente"
+
+Para desativá-lo:
+
+deactivate
+
+Para atiǘa-lo:
+
+workon "nome do ambiente"
+
 <h2>PEP8 - Boas práticas</h2>
 
 Style Guide for Python Code
