@@ -170,3 +170,5 @@ variavel_longa = 3<br>
 [7] - Termine sempre uma instrução com uma nova linha
 
 Deixe sempre uma linha em branco no final do programa
+
+Sério isso ???
