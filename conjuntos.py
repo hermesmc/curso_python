@@ -199,3 +199,11 @@ print(max(s))
 print(min(s))
 print(len(s))
 """
+s = set((range(10)))
+print(s)
+print(type(s))
+
+print(sum(s))
+print(max(s))
+print(min(s))
+print(len(s))
