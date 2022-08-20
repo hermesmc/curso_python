@@ -172,3 +172,6 @@ variavel_longa = 3<br>
 Deixe sempre uma linha em branco no final do programa
 
 Fim do readme
+
+
+============================
