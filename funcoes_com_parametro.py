@@ -86,7 +86,6 @@ print(soma_impares(lista))
 tupla = 1, 2, 3, 4 , 5, 6, 7
 print(soma_impares(tupla))
 
-"""
 
 def soma_impares(numeros):
     total = 0
@@ -100,3 +99,5 @@ print(soma_impares(lista))
 
 tupla = 1, 2, 3, 4 , 5, 6, 7, 8, 9, 10
 print(soma_impares(tupla))
+
+"""
