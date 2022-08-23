@@ -2,3 +2,6 @@ uva
 maça
 banana
 manga
+Tangerina
+Abacaxi
+UVA
