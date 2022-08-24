@@ -40,11 +40,13 @@ with open('outro.txt', 'a') as arquivo:
 
 # Esse exemplo não funciona
 
-"""
-
 with open('outro.txt', 'r+') as arquivo:
     arquivo.seek(0)
     arquivo.write('Teste de inclusão no início-6.\n')
     arquivo.write('Teste de inclusão no início-2.\n')
     arquivo.write('Teste de inclusão no início-3.\n')
+
+"""
+
+
 
