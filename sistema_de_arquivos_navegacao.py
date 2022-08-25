@@ -1,5 +1,5 @@
 """
-Navegação
+Sistema de Arquivos - Navegação
 
 Para fazer uso de manipulação de arquivos do SO precisamos importar e fazer uso do módulo OS.
 
@@ -74,11 +74,6 @@ print(caminho)
 print(quantidade)
 
 
-"""
-
-import os
-
-
 # Mais detalhes da pasta scandir()
 
 scanner = os.scandir('/etc')
@@ -96,3 +91,6 @@ print(caminho[0].stat())       # Estatísticas sobre o arquivo
 
 # Depois de usar o scandir(), devemos fechá-la
 scanner.close()
+
+"""
+
