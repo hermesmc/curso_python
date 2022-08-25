@@ -52,11 +52,47 @@ import sys - > aqui mostra o nome do SO
 
 print(sys.platform)
 
+# Acessando uma pasta
+
+caminho = os.getcwd()
+print(caminho) # /home/hermes/PycharmProjects/guppe
+
+res = os.path.join(caminho, 'geek')
+os.chdir(res)
+
+print(os.getcwd()) # /home/hermes/PycharmProjects/guppe/geek
+
+# O comando os.path.join recebe dois parâmetros sendo o primeiro um caminho e o segundo o que será
+# acrescentado ao caminho
+
+# Podemos listar os diretórios com listdir()
+
+
+caminho = os.listdir('/etc')
+quantidade = len(os.listdir('/etc'))
+print(caminho)
+print(quantidade)
+
+
 """
 
 import os
 
-print(os.uname())
 
-)
+# Mais detalhes da pasta scandir()
 
+scanner = os.scandir('/etc')
+
+caminho = list(os.scandir('/etc'))
+print(caminho)
+print('-------------------------------------')
+print(caminho[0].name)         # nome do arquivo
+print(caminho[0].inode())      # Identificador do node
+print(caminho[0].is_dir())     # Se é um diretório
+print(caminho[0].is_file())    # Se é um arquivo
+print(caminho[0].is_symlink()) # É um symlink
+print(caminho[0].path)         # Caminho até o arquivo
+print(caminho[0].stat())       # Estatísticas sobre o arquivo
+
+# Depois de usar o scandir(), devemos fechá-la
+scanner.close()
