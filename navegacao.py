@@ -39,8 +39,24 @@ print(caminho)
 print(os.path.isabs('/home/geek/')) # Linux
 
 print(os.path.isabs('c:\\home\\geek ')) # Windows
+
+# name -> Identificando o sistema operacional
+
+print(os.name) # posix = Linux/Mac e nt para Windows
+
+# Para mais detalhes do SO
+
+print(os.uname())
+
+import sys - > aqui mostra o nome do SO
+
+print(sys.platform)
+
 """
 
 import os
 
+print(os.uname())
+
+)
 
